@@ -1,0 +1,383 @@
+---
+title: "BARCELONA GROUP"
+author: "AVIANCE"
+date: '19th to 23rd May, 2019'
+output:
+ 
+  html_document:
+    css: FORMATO.css
+    fig_width: 8
+    fig_height: 8
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+    
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" align="right"></A>') 
+    }); 
+</script> 
+
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+library(readxl)
+library(shiny)
+library(dplyr)
+library(knitr)
+```
+
+
+## ACCOMMODATION
+
+### **Main Hotel: SB ICARIA**
+
+Located 300 m from Barcelona’s Nova Icaria Beach, **Hotel SB Icaria Barcelona** offers a gym, sauna and outdoor pool with sun terrace and hot tub. Rooms include free Wi-Fi and flat-screen satellite TV.
+
+The **Hotel SB Icaria Barcelona’s** stylish modern rooms feature wooden floors and adjustable lighting. Each room has a minibar, safe and private bathroom with a hairdryer.
+
+The hotel’s elegant restaurant serves Mediterranean market cuisine. There is also a bar and a garden terrace. 
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/114/114597922.jpg" width="360"> <img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/151/151170097.jpg" width="360" align="right"> 
+
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/151/151181734.jpg">
+
+
+### **Alternative Hotels** {.tabset .tabset-fade .tabset-pills}
+
+#### Attica 21 Barcelona
+
+Located in the modern Diagonal Mar district of Barcelona, **Attica 21** is only 300 m from the beach. The hotel has a rooftop swimming pool and free Wi-Fi.
+
+The contemporary rooms in **Attica 21 Barcelona Mar** all have wooden floors and large windows. They include air conditioning and a private bathroom.
+
+Attica 21’s rooftop pool is surrounded by a sun terrace and loungers, with stunning views of the city. In the summer there is also a pool bar. The hotel also offers a coffee bar and tour desk.
+
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/145/14533564.jpg" width="360"> <img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/145/14533597.jpg" width="360" align="right">
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/145/14532910.jpg"> 
+
+#### H. C. Plaza Cataluña
+
+**Hotel Catalonia Plaza Cataluña** offers an outdoor pool and stylish, air-conditioned rooms with free Wi-Fi and satellite TV. It is housed in a Modernist building 50 m from Barcelona’s Plaza Catalunya.
+
+The hotel serves a continental buffet breakfast with show cooking and it includes a wide variety of regional products and home-made cakes. Contempo restaurant offers traditional Mediterranean cuisine with a contemporary twist.
+
+**Catalonia Plaza Cataluña Hotel** has a sun terrace with loungers, a gym and a pool. Guests can also enjoy the on-site spa and cabin for spa treatments and massages.
+
+**Hotel  Plaza Catalunya** is a 5-minute walk from Barcelona’s Gothic Quarter and the Palau de la Música Catalana, a beautiful Modernist auditorium.
+
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/989/98984445.jpg" >
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/135/135892761.jpg">
+
+#### H. C. Ramblas
+
+Set just off Barcelona’s famous Las Ramblas, 3 minutes’ walk from central Plaza Catalunya, **Catalonia Ramblas**  features a seasonal outdoor pool with a south-facing terrace, a poolside snack bar and a chill-out area.
+
+Housed in a modernist building, all bright and spacious rooms come with a flat-screen satellite TV, free WiFi and tea and coffee facilities. Some have a private terrace with a private pool. Room service is available.
+
+The spa at **Catalonia Ramblas** features a relaxation area. It includes a sauna, a steam bath and a hot tub. Massage and beauty treatments are also available.
+
+The hotel’s restaurant, Pelai Restaurant, offers Catalan market cuisine. Dishes cooked on a coal stove are available at the Pelai terrace, a rooftop terrace with a chill-out area with panoramic city views. A buffet breakfast is offered every morning and, on weekends, it is available until 12:00.
+
+In the summer months, the terrace is open until 00:00 and has a summer menu, as well as cocktails and milkshakes.
+
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/914/91492790.jpg" width="360"> <img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/914/91492758.jpg" width="360" align="right">
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/107/107790129.jpg"> 
+
+
+#### H. C. Catedral
+
+The **Catalonia Catedral** is set in a traditional Modernist building, just 100 m from Barcelona Cathedral. It offers free use of Smartphones, Wi-Fi access, a rooftop seasonal pool and a Japanese-style terrace and garden.
+
+The Catedral has stylish rooms, which have contemporary décor. Each has a flat-screen TV, air conditioning, a minibar, a Nespresso machine. A smartphone is available for guests during their stay free of charge.
+
+The hotel’s Ascent Restaurant by Eboca serves Mediterrean cuisine and offers views of the nearby Palacio Pignatelli Art Gallery. There is also a bar in the hotel lobby where guests can use the computers with internet access and printers for free.
+
+The **Catalonia Catedral** is around 10 minutes’ walk from landmarks such as Las Ramblas and Plaza de Catalunya Square. Barcelona’s Old Port and Marina are less than one kilometre away.
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/726/72627218.jpg" width="360"> <img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/103/103924377.jpg" width="360" align="right">
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/103/103929574.jpg"> 
+
+
+
+#### Hotel Hilton Diagonal Mar
+
+This hotel is next to Diagonal Mar Shopping Centre and just 400 m from Nova Mar Bella Beach. It offers a seasonal outdoor pool, a fitness centre and air-conditioned rooms with a LED TV.
+
+**Hilton Diagonal Mar Barcelona**'s terrace, Purobeach Barcelona, has an outdoor pool and paddling pool available from May to October. All services on the Purobeach terrace, including Balinese beds, sunbeds and massages are available for an extra charge.
+
+Purobeach Restaurant offers a diverse menu, as well as a variety of classic cocktails and international spirits. Aürt Restaurant serves Catalan food cooked in front of you. Guests can also enjoy tapas, snacks or drinks at Ma'i.
+
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/764/76414425.jpg" width="340"> <img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/173/173608200.jpg" width="385" align="right">
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/103/103929574.jpg"> 
+
+
+
+## PROGRAMME
+
+### **Map**
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+
+library(leaflet)
+library(stringr)
+library(ggmap)
+library(readxl)
+library(dplyr)
+library(leaflet.extras)
+library(shiny)
+
+coordinates <- read_excel("timeline.xlsx", 
+    sheet = "Sheet3", col_types = c("text", 
+        "text", "numeric", "numeric", "text", 
+        "text"))
+
+coordinates$Category <- factor(coordinates$Category)
+
+m <- coordinates %>% 
+  leaflet(options = leafletOptions(dragging = TRUE,
+  minZoom = 14, maxZoom = 18)) %>% 
+  addProviderTiles("Esri") %>% 
+  setView(lng = 2.1687300, lat = 41.3863900, zoom = 14) 
+
+pal <- colorFactor(palette = c("red","blue"),
+      levels = coordinates$Category)
+
+m %>% clearBounds() %>% 
+  addCircleMarkers(radius = 5, color = ~pal(Category)) %>% 
+  addPopups(popup = paste0("<b>",coordinates$Location,"</b>")) %>% 
+  addLegend(position = "bottomright", pal = pal, 
+  values = coordinates$Category) %>% addResetMapButton()
+
+```
+
+### **DAY 1** 
+
+Guests will arrive in Barcelona where a person from Cutting Edge Events will be waiting for them, They will be transferred to the chosen hotel to do the check in.
+
+For the first evening we recommend a beautiful restaurant located on Montjuic hill: **El Xalet** , guests will enjoy the views and the food.
+
+Located in an idyllic setting on the top of the Montjuïc hill, El Xalet is a spectacular restaurant that offers the best views over Barcelona from its dining rooms and wonderful panoramic terraces. Exquisite and modern in its design, the restaurant presents, in a select and refined atmosphere, signature Mediterranean and Catalan cuisine. 
+
+<img src = "https://www.gruptravi.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_31_1396539645/content/assets/Xalet-Sunset-0.jpg" width="800" > 
+
+<img src = "https://www.gruptravi.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_31_1396539645/content/assets/T-E-R-R-0.png" width="800" > 
+
+****
+
+### **DAY 2 ** 
+
+After breakfast guests will be transferred to the Congress Center by bus and they will stay there until the afternoon when they will be transferred back to the hotel to refresh before dinner.
+
+For the second evening we recommend to go dinner to **Restaurante Barceloneta** an excellent fish restaurant located in the Port district.
+
+With its high quality Mediterranean gastronomy and the carefully chosen decoration, it has a privileged location that permits a wonderful sea-view of the fishing harbour and the marina of Barcelona.
+
+Its cuisine is constantly evolving but remains true to its early style which proved so popular, it´s based on traditional fish restaurant cooking, with simple but elaborated recipes, and always with the freshest and highest quality products.
+
+Service is professional, highly experienced and fast.
+
+<img src = "https://media-cdn.tripadvisor.com/media/photo-s/01/e6/ec/fe/vista-desde-la-terraza.jpg" width="800" > 
+
+<img src = "https://media-cdn.tripadvisor.com/media/photo-s/0c/33/d3/10/barceloneta-restaurant.jpg" width="800" >
+
+After dinner the group will be transferred to the hotel by bus.
+
+****
+
+### **DAY 3** 
+
+After breakfast guests will be transferred to the Congress Center by bus and they will stay there until the afternoon when they will start a **guided city tour**. Our official guide will pickup guests at the Congress Center and they will do a tour starting at the newest area of Barcelona: Forum, 22@ area, then they will go to Plaza España and from there to Montjuic where they will enjoy the most beatiful views of the city and they will see Palau Sant Jordi and the Olympic Stadium too.
+Once they will go down from Montjuic they will go to pass trough the Eixample Quarter where they will see the masterpieces of Gaudí: Casa Milà, Casa Batlló and La Pedrera - they will do the most of the tour by bus but they will stop at the main spots to hop-off and enjoy it.
+
+<img src = "https://www.ejeprime.com/files/Barcelona%2022@-948.jpg" width="385" > <img src = "https://cdn02.visitbarcelona.com/files/5445-7612-Imagen/anella-olimpica-sports-turisme-barcelona-pf-c1.jpg" width="335" align="right">
+
+Optionally we can include a visit to Park Guell or Sagrada Familia, for example.
+
+<img src = "http://wanderingtrader.com/wp-content/uploads/2013/01/Gaudi-Parc-Guell-Lizard-Barcelona.jpg" width="365" > <img src = "https://cdn.getyourguide.com/img/tour_img-1011978-146.jpg" width="355" align="right">
+
+We recommend to finish the tour at the Olympic Port to go to the restaurant **EL Cangrejo Loco** where guests will enjoy an excellent Paella. This restaurant has a privileged location ans offers ourdoor terraces and spectacular views of the sea and the city. 
+
+<img src = "http://admin.bookingmeal.com/restaurant_admin/Uploads/RestaurantImages/319/b6dbd819-ab77-49b2-89f2-50b105d227b8.jpg" width="800" > 
+
+### **DAY 4** 
+
+After breakfast the group will go by bus to **Caves Codorniu**, this is a winery that elaborates only cava (sparkling wine). 
+The winery is around 1 hour from Barcelona by bus.
+
+They will do a private guided visit to the winery including the tasting of a glass of cava.
+
+Once finished the visit they will enjoy a tapas buffet lunch in on of the rooms of the Winery
+
+<img src = "https://www.visitascodorniu.com/wp-content/uploads/2014/09/Interior-caves.jpg" width="380" > <img src = "https://imgs-akamai.mnstatic.com/a3/16/a316afb3fc0a980cac935f91fd6996d3.jpg" width="340" align="right">
+
+<img src = "https://www.visitascodorniu.com/wp-content/uploads/2014/03/slide5-2017.jpg" width="800" > 
+
+After lunch, guests will go back to the hotel by bus to have some free time to refresh before dinner
+
+The last evening we recommend to go to **Tablao de Carmen**
+
+Dinners at El Tablao de Carmen -typically Andalusian recipes and dishes with an international touch- include a performance created to keep the most genuine flamenco tradition alive. It combines music, singing and dancing and is performed by prestigious artists and young talents.
+
+<img src = "https://media-cdn.tripadvisor.com/media/photo-s/10/d7/b5/08/espectaculo-de-flamenco.jpg" width="800" > 
+
+
+### **DAY 5**
+
+For the last morning before the departure, if they have time, we propose to do a **Tapas Tour**.
+
+The bus will pickup the group and their luggage and it will bring them to the lower part of Las Ramblas, from where the group will start a walking tour with our official guide while the luggage is inside the bus in standby.
+They will walk trought the Gothic and the Born quarters, the most historical part of the city and they will do two stops to taste some traditional tapas.
+
+<img src = "https://www.expatica.com/es/wp-content/uploads/sites/2/2014/05/Spanish-Tapas-1.jpg" width="350" > <img src = "https://miviaje.com/wp-content/uploads/2018/01/barrio-de-born-barcelona.jpg" width="360" align="right">
+
+<img src = "https://politicahora.es/wp-content/uploads/2015/08/DSC_3914.jpg" width="800" > 
+
+
+The tour will finish again at the lower part of Las Ramblas where the grouop will find the bus that will bring them to the Airport.
+
+END OF THE PROGRAMME
+
+*****
+
+## ALTERNATIVE RESTAURANTS {.tabset .tabset-fade .tabset-pills}
+
+### Can Travi Nou
+
+Placed in a in a refurbished 17th-century house, Can Travi Nou boasts a wonderful garden and a traditional, cosy atmosphere. The restaurant has private dining rooms that make it ideal for business meetings and all sorts of celebrations. The menu offers traditional Catalan cuisine.
+
+<img src = "https://media-edg.barcelona.cat/wp-content/uploads/2015/10/25161837/Can-Travi-Nou-760x428.jpg" width="800" > 
+***
+
+### Arenal
+
+Located on La Barceloneta beach, Arenal offers Mediterranean cuisine in a wonderful terrace on the sand and in an impeccable interior dining room with huge windows through which we will enjoy the best views. The restaurant is ideal for the summer time, but also for a cold winter day.
+
+<img src = "https://media-cdn.tripadvisor.com/media/photo-s/0e/e1/57/cc/entorno.jpg" width="800" > 
+***
+
+### Los caracoles
+
+With over a century and a half of history, Los Caracoles is one of the most emblematic restaurants in the Gothic Quarter and Barcelona. The place still has the essence and décor of its beginnings and welcomes us in an authentic atmosphere full of tradition. The menu is based on the classic recipes of the Catalan and Mediterranean cuisine and snails in sauce are, of course, the house’s specialty.
+
+<img src = "https://u.tfstatic.com/restaurant_photos/977/210977/169/612/los-caracoles-vista-sala-c4915.jpg" width="800" > 
+***
+
+### Alba Granados
+
+Alba Granados reopens its doors in 2016 with a completely renewed look. The spacious restaurant is divided into two floors: it has an elegant dining room on the ground floor and a fantastic New York style cocktail bar on the first floor, plus an exquisite balcony. Its cuisine is traditional based with current touches and shares prominence with its extensive wine cellar.
+
+<img src = "http://letsbitebcn.com/wp-content/uploads/2018/07/letsbitebcn_alba_granados_15.jpg" width="800" > 
+***
+
+### Windsor
+
+Located in a beautiful Catalan Modernist building for two decades, Windsor provides the most special setting to enjoy the updated Catalan haute cuisine by young chef Carlos Alconchel, who works with selected seasonal products of proximity. The space -elegant, contemporary and flooded with natural light- has a great terrace and different private dining rooms.
+
+<img src = "https://www.restaurantes.info/fotos/1280-1411984679.jpg" width="800" > 
+***
+
+### L'Olivé
+
+L'Olivé is a classic in the city of Barcelona. With large rooms and a good decor, combining traditional and modern touches, the restaurant offers the perfect environment for any occasion. The menu is Mediterranean and has specialties of sea and mountain prepared in a traditional way.
+
+<img src = "https://www.diariodeungloton.com/wp-content/uploads/2018/01/LOlive-DEST-Diario-de-un-Gloton.jpg" width="800" > 
+
+***
+
+## BUDGET {.tabset .tabset-fade .tabset-pills}
+
+### Main Programme 
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+
+library(readxl)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+library(DT)
+
+budget <- read_excel("timeline.xlsx", sheet = "Sheet1", 
+    col_types = c("date", "text", "text", 
+        "numeric", "text", "numeric", "numeric"))
+budget$DATE <- as.Date(budget$DATE)
+
+DT::datatable(budget, extensions = "Buttons",rownames = FALSE, options = list(paging= FALSE,
+initComplete = JS("
+    function(settings, json) {
+      $(this.api().table().header()).css({
+        'background-color': '#ee7600 ',
+        'color': '#fff'
+      });
+    }"),
+dom ='Bfrtip', buttons = c('copy','print'),                           pageLength = nrow(budget),autoWidth = TRUE)) %>% 
+   formatDate('DATE') %>% 
+  formatCurrency(6:7,'\U20AC')
+
+
+```
+
+
+
+### Alternatives
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+
+library(readxl)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+library(DT)
+
+budget <- read_excel("timeline.xlsx", sheet = "Sheet2", 
+    col_types = c("date", "text", "text", 
+        "numeric", "text", "numeric", "numeric"))
+budget$DATE <- as.Date(budget$DATE)
+
+DT::datatable(budget, extensions = "Buttons",rownames = FALSE, options = list(paging= FALSE,
+initComplete = JS("
+    function(settings, json) {
+      $(this.api().table().header()).css({
+        'background-color': '#ee7600 ',
+        'color': '#fff'
+      });
+    }"),
+dom ='Bfrtip', buttons = c('copy','print'),                           pageLength = nrow(budget),autoWidth = TRUE)) %>% 
+   formatDate('DATE') %>% 
+  formatCurrency(6:7,'\U20AC')
+
+
+```
+
+### Terms & Conditions
+
+  *Rates valid for the requested dates.
+  
+  *Net rates for Aviance
+  
+  *Valid for 18 pax
+  
+  *Cutting Edge Events management fee including in the detailed rates
+  
+  *VAT included. 
+  
+  *No reservation has been done. Availability upon request.
+  
+*****
+
+## COMPANY PROFILE
+
+<img src = "CURRICULUM GRAFICO.001.jpeg" width="800">
